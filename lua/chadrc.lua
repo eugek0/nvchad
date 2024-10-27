@@ -14,6 +14,29 @@ M.base46 = {
   -- },
 }
 
+M.ui = {
+  cmp = {
+    lspkind_text = true,
+    style = "atom",
+    format_colors = {
+      tailwind = true,
+    }
+  },
+
+  telescope = {
+    style = "bordered",
+  },
+
+  tabufline = {
+    enabled = true,
+  },
+
+  statusline = {
+    enabled = true,
+    theme = "minimal",
+  },
+}
+
 M.mason = {
   command = true,
   pkgs = {
@@ -31,6 +54,16 @@ M.mason = {
     "omnisharp",
     "pyright",
     "json-lsp",
+  },
+}
+
+M.colorify = {
+  enabled = true,
+  mode = "virtual",
+  virt_text = "󱓻 ",
+  highlight = {
+    hex = true,
+    lspvars = true,
   },
 }
 
