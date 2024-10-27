@@ -28,12 +28,12 @@ map("n", "<leader>gcc", "<cmd>DiffviewClose<CR>", { desc = "Git close commit his
 map("n", "<leader>gct", "<cmd>DiffviewToggleFiles<CR>", { desc = "Git toggle file sidebar" })
 
 -- INFO: Git conflicts
-map("n", "<leader>gft", "<cmd>GitConflictChooseTheirs<CR>", { desc = " Choose theirs" })
-map("n", "<leader>gfo", "<cmd>GitConflictChooseOurs<CR>", { desc = " Choose ours" })
-map("n", "<leader>gfb", "<cmd>GitConflictChooseBoth<CR>", { desc = " hoose both" })
-map("n", "<leader>gfn", "<cmd>GitConflictChooseNone<CR>", { desc = " Choose none" })
-map("n", "[c", "<cmd>GitConflictNextConflict<CR>", { desc = " Next conflict" })
-map("n", "]c", "<cmd>GitConflictPrevConflict<CR>", { desc = " Prev conflict" })
-map("n", "<leader>fc", "<cmd>GitConflictListQf<CR>", { desc = " List conflicts" })
+map("n", "<leader>gft", "<cmd>GitConflictChooseTheirs<CR>", { desc = "Choose theirs" })
+map("n", "<leader>gfo", "<cmd>GitConflictChooseOurs<CR>", { desc = "Choose ours" })
+map("n", "<leader>gfb", "<cmd>GitConflictChooseBoth<CR>", { desc = "hoose both" })
+map("n", "<leader>gfn", "<cmd>GitConflictChooseNone<CR>", { desc = "Choose none" })
+map("n", "[c", "<cmd>GitConflictNextConflict<CR>", { desc = "Next conflict" })
+map("n", "]c", "<cmd>GitConflictPrevConflict<CR>", { desc = "Prev conflict" })
+map("n", "<leader>fc", "<cmd>GitConflictListQf<CR>", { desc = "List conflicts" })
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
