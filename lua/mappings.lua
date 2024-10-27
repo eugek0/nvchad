@@ -24,4 +24,13 @@ map("n", "<leader>tf", function()
   require("nvterm.terminal").toggle "float"
 end, { desc = "Float terminal" })
 
+-- INFO: Git conflicts
+map("n", "<leader>gct", "<cmd>GitConflictChooseTheirs<CR>", { desc = "Choose theirs" })
+map("n", "<leader>gco", "<cmd>GitConflictChooseOurs<CR>", { desc = "Choose ours" })
+map("n", "<leader>gcb", "<cmd>GitConflictChooseBoth<CR>", { desc = "Choose both" })
+map("n", "<leader>gcn", "<cmd>GitConflictChooseNone<CR>", { desc = "Choose none" })
+map("n", "[c", "<cmd>GitConflictNextConflict<CR>", { desc = "Next conflict" })
+map("n", "]c", "<cmd>GitConflictPrevConflict<CR>", { desc = "Prev conflict" })
+map("n", "<leader>fgc", "<cmd>GitConflictListQf<CR>", { desc = "List conflicts" })
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
