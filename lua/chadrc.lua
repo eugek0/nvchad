@@ -49,6 +49,8 @@ M.mason = {
     "typescript-language-server",
     "emmet-language-server",
     "clangd",
+    "nil",
+    "nixpkgs-fmt",
     "clang-format",
     "bash-language-server",
     "omnisharp",
