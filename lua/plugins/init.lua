@@ -12,6 +12,8 @@ return {
       "hrsh7th/cmp-nvim-lsp", -- если используешь автодополнение
     },
     config = function()
+      require "configs.lspconfig"
+
       local lspconfig = require "lspconfig"
 
       lspconfig.eslint.setup {

@@ -8,7 +8,6 @@ local options = {
     typescript = { "prettierd" },
     javascriptreact = { "prettierd" },
     typescriptreact = { "prettierd" },
-    nix = { "nixpkgs-fmt" },
     go = { "gofumt" },
   },
 

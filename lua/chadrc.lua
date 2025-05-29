@@ -22,8 +22,6 @@ M.mason = {
     "eslint-lsp",
     "emmet-language-server",
     "clangd",
-    "nil",
-    "nixpkgs-fmt",
     "clang-format",
     "bash-language-server",
     "omnisharp",
