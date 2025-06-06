@@ -20,6 +20,7 @@ M.mason = {
     "eslint_d",
     "typescript-language-server",
     "eslint-lsp",
+    "rust-analyzer",
     "emmet-language-server",
     "clangd",
     "clang-format",

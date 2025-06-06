@@ -9,7 +9,7 @@ return {
   {
     "neovim/nvim-lspconfig",
     dependencies = {
-      "hrsh7th/cmp-nvim-lsp", -- если используешь автодополнение
+      "hrsh7th/cmp-nvim-lsp",
     },
     config = function()
       require "configs.lspconfig"
@@ -168,6 +168,7 @@ return {
         "javascript",
         "typescript",
         "python",
+        "rust",
         "c_sharp",
         "cpp",
         "bash",
