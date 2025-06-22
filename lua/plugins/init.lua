@@ -35,6 +35,12 @@ return {
   -- },
 
   {
+    "mrcjkb/rustaceanvim",
+    version = "^6",
+    lazy = false,
+  },
+
+  {
     -- Интеграция с Discord
     "andweeb/presence.nvim",
     event = "VeryLazy",
