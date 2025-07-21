@@ -22,10 +22,16 @@ map("n", "<leader>gg", "<cmd>LazyGit<cr>", { desc = "Open Lazygit" })
 -- Быстрый выход
 map("n", "<leader>q", "<cmd>q!<cr>", { desc = "Close" })
 
--- Code action
+-- LSP
 map("n", "<leader>ca", function()
   vim.lsp.buf.code_action()
 end, { desc = "LSP code action" })
+map("n", "<leader>ld", function()
+  vim.lsp.buf.definition()
+end, { desc = "LSP source definition" })
+map("n", "<leader>lr", function()
+  vim.lsp.buf.references()
+end, { desc = "LSP references" })
 
 -- Перемещение строчек с помощью Alt
 map("n", "<A-j>", ":m .+1<CR>==")
@@ -36,3 +42,6 @@ map("v", "<A-k>", ":m '<-2<CR>gv=gv")
 -- Табуляция
 map("v", ">", ">gv")
 map("v", "<", "<gv")
+
+-- Ненужная херь
+map("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")

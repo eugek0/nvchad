@@ -25,4 +25,9 @@ return {
     opts = {},
     cmd = "Trouble",
   },
+
+  {
+    "Eandrju/cellular-automaton.nvim",
+    event = "VeryLazy",
+  },
 }
