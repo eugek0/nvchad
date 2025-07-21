@@ -8,6 +8,7 @@ local options = {
     typescript = { "prettierd" },
     javascriptreact = { "prettierd" },
     typescriptreact = { "prettierd" },
+    json = { "prettierd" },
   },
 }
 
