@@ -1,6 +1,6 @@
 return {
   {
-    "jake-stewart/multicursor.nvim",
+    "mg979/vim-visual-multi",
     event = "VeryLazy",
   },
 

@@ -29,7 +29,7 @@ M.mason = {
 }
 
 M.base46 = {
-  theme = "gruvbox",
+  theme = "chocolate",
 
   hl_override = {
     Comment = { italic = true },
