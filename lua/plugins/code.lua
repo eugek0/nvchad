@@ -30,4 +30,9 @@ return {
     "Eandrju/cellular-automaton.nvim",
     event = "VeryLazy",
   },
+
+  {
+    "uga-rosa/translate.nvim",
+    event = "VeryLazy",
+  },
 }

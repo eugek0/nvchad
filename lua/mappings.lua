@@ -45,3 +45,7 @@ map("v", "<", "<gv")
 
 -- Ненужная херь
 map("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
+
+-- Перевод
+map({ "n", "v" }, "<leader>tr", "<cmd>Translate ru<cr>", { desc = "Перевести на русский" })
+map({ "n", "v" }, "<leader>te", "<cmd>Translate en<cr>", { desc = "Перевести на английский" })
