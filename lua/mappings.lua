@@ -1,9 +1,10 @@
 require "nvchad.mappings"
 
+local replace = require "utils.replace"
+
 local map = vim.keymap.set
 
 -- Общее
-map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jj", "<ESC>")
 map("n", "<leader>w", "<cmd>w<cr>", { desc = "Save" })
 
@@ -49,3 +50,11 @@ map("n", "<leader>mir", "<cmd>CellularAutomaton make_it_rain<CR>")
 -- Перевод
 map({ "n", "v" }, "<leader>tr", "<cmd>Translate ru<cr>", { desc = "Перевести на русский" })
 map({ "n", "v" }, "<leader>te", "<cmd>Translate en<cr>", { desc = "Перевести на английский" })
+
+-- Маппинги для вызова утилсов
+map(
+  "n",
+  "<leader>sr",
+  replace.SearchReplaceProject,
+  { noremap = true, silent = true, desc = "Поиск и замена вхождений" }
+)
