@@ -30,6 +30,11 @@ return {
   },
 
   {
+    "DaikyXendo/nvim-material-icon",
+    event = "VeryLazy",
+  },
+
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
