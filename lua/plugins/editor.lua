@@ -2,6 +2,15 @@ return {
   {
     "stevearc/conform.nvim",
     opts = require "configs.conform",
+    config = function()
+      local conform = require "conform"
+      vim.api.nvim_create_autocmd("BufWritePre", {
+        pattern = { "*.js", "*.ts", "*.jsx", "*.tsx" },
+        callback = function()
+          conform.format { async = false }
+        end,
+      })
+    end,
   },
 
   {
