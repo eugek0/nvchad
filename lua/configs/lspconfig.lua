@@ -10,5 +10,7 @@ local servers = {
   "bashls",
   "elsint-lsp",
   "tailwindcss-language-server",
+  "postgrestools",
+  "taplo",
 }
 vim.lsp.enable(servers)

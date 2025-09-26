@@ -25,6 +25,9 @@ M.mason = {
     "pyright",
     "json-lsp",
     "tailwindcss-language-server",
+    "postgrestools",
+    "pgformatter",
+    "taplo",
   },
 }
 

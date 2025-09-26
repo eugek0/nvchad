@@ -49,6 +49,7 @@ return {
         "c_sharp",
         "cpp",
         "bash",
+        "sql",
       },
     },
   },

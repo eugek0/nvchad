@@ -9,6 +9,8 @@ local options = {
     javascriptreact = { "prettierd" },
     typescriptreact = { "prettierd" },
     json = { "prettierd" },
+    sql = { "pgformatter" },
+    toml = { "taplo" },
   },
 }
 
