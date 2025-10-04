@@ -8,6 +8,10 @@ return {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
+      dofile(vim.g.base46_cache .. "defaults")
+      dofile(vim.g.base46_cache .. "statusline")
+      require("base46").load_all_highlights()
+
       require("todo-comments").setup()
     end,
     event = "BufReadPost",
