@@ -11,6 +11,7 @@ local options = {
     json = { "prettierd" },
     sql = { "pgformatter" },
     toml = { "taplo" },
+    python = { "autopep8" },
   },
 }
 

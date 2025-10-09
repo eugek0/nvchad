@@ -22,12 +22,14 @@ M.mason = {
     "clang-format",
     "bash-language-server",
     "omnisharp",
-    "pyright",
+    "basedpyright",
     "json-lsp",
     "tailwindcss-language-server",
     "postgrestools",
     "pgformatter",
     "taplo",
+    "flake8",
+    "autopep8",
   },
 }
 

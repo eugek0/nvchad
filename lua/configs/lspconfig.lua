@@ -5,7 +5,7 @@ local servers = {
   "cssls",
   "vtsls",
   "clangd",
-  "pyright",
+  "basedpyright",
   "emmet_language_server",
   "bashls",
   "elsint-lsp",
