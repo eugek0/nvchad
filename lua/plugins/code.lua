@@ -5,6 +5,14 @@ return {
   },
 
   {
+    "uga-rosa/ccc.nvim",
+    event = "VeryLazy",
+    config = function()
+      require("ccc").setup()
+    end,
+  },
+
+  {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()

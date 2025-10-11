@@ -34,6 +34,9 @@ map("n", "<leader>lr", function()
   vim.lsp.buf.references()
 end, { desc = "LSP references" })
 
+-- Color picker
+map("n", "<leader>ccc", "<cmd>CccPick<cr>", { desc = "Color picker" })
+
 -- Перемещение строчек с помощью Alt
 map("n", "<A-j>", ":m .+1<CR>==")
 map("n", "<A-k>", ":m .-2<CR>==")
