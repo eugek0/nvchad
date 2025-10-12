@@ -13,6 +13,22 @@ return {
   },
 
   {
+    "rachartier/tiny-inline-diagnostic.nvim",
+    event = "BufReadPost",
+    priority = 1000,
+    config = function()
+      require("tiny-inline-diagnostic").setup {
+        options = {
+          multilines = {
+            enabled = true,
+            always_show = true,
+          },
+        },
+      }
+    end,
+  },
+
+  {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
