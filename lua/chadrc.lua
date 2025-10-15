@@ -14,7 +14,7 @@ M.mason = {
     "css-lsp",
     "prettierd",
     "eslint_d",
-    "vtsls",
+    "typescript-language-server",
     "eslint-lsp",
     "rust-analyzer",
     "emmet-language-server",
