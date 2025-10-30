@@ -5,6 +5,14 @@ return {
   },
 
   {
+    "uga-rosa/ccc.nvim",
+    event = "VeryLazy",
+    config = function()
+      require("ccc").setup()
+    end,
+  },
+
+  {
     "dmmulroy/tsc.nvim",
     event = "VeryLazy",
     config = function()

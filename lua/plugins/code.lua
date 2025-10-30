@@ -5,14 +5,6 @@ return {
   },
 
   {
-    "uga-rosa/ccc.nvim",
-    event = "VeryLazy",
-    config = function()
-      require("ccc").setup()
-    end,
-  },
-
-  {
     "rachartier/tiny-inline-diagnostic.nvim",
     event = "BufReadPost",
     priority = 1000,
