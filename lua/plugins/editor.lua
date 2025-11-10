@@ -44,6 +44,7 @@ return {
         "javascript",
         "typescript",
         "tsx",
+        "prisma",
         "python",
         "rust",
         "c_sharp",

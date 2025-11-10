@@ -17,6 +17,7 @@ local servers = {
   "elsint-lsp",
   "tailwindcss",
   "postgres-language-server",
+  "prisma-language-server",
   "eslint",
   "taplo",
 }
