@@ -5,6 +5,11 @@ return {
   },
 
   {
+    "lewis6991/satellite.nvim",
+    event = "VeryLazy",
+  },
+
+  {
     "neovim/nvim-lspconfig",
     config = function()
       require "configs.lspconfig"
